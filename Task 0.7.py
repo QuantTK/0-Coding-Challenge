@@ -1,14 +1,14 @@
-# function to convert fahreinheit to celsius
-def fahreinheit_tocelsius(temp):
+
+def fahreinheit_to_celsius(temp):
     celsius = (temp - 32)*5/9
     return celsius
 
-# function to convert celsisu to fahreinheit
-def celsius_tofahrenheit(num):
+
+def celsius_to_fahrenheit(num):
     fahren = num*(9/5) + 32
     return fahren
 
-tmp_fah = fahreinheit_tocelsius(50)
+tmp_fah = fahreinheit_to_celsius(50)
 print(tmp_fah)
-tmp_cel = celsius_tofahrenheit(50)
+tmp_cel = celsius_to_fahrenheit(50)
 print(tmp_cel)
