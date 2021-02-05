@@ -7,5 +7,5 @@ def common_characters(string_a,string_b):
                 lis.append(j)
                 
     print("Common Letters:" + ', '.join(lis))
-
+    
 common_characters("House","computers")
