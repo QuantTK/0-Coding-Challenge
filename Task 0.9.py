@@ -7,4 +7,4 @@ def get_vowels(string):
                 lis.append(j)
     print(', '.join(lis))
 
-get_vowels("lolOabanEilwe")
+get_vowels("lolOabanEilwU")
