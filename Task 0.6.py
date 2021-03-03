@@ -1,13 +1,11 @@
 def get_maximum_value(a,b,c):
     
-    max = a
-    if b > max:
-        max = b
-        if c > max:
-            max = c
-    elif c > max:
-        max = c
-    return max
+    max_value = a
+    if b > max_value:
+        max_value = b
+        if c > max_value:
+            max_value = c
+    elif c > max_value:
+        max_value = c
+    return max_value
 
-max_val = get_maximum_value(0,0,1)
-print(max_val)
