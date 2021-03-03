@@ -1,4 +1,4 @@
-def common_characters(string_a,string_b):
+def common_characters(string_a, string_b):
     
     lis = []
     for i in string_b:
