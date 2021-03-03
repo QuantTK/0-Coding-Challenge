@@ -16,5 +16,3 @@ def time_conversion(num):
             time = f'{int(hour)} hour, {round(minut)} minute'
     return time
             
-converted_time = time_conversion(61)
-print(converted_time)
