@@ -1,4 +1,4 @@
-def get_maximum_value(a,b,c):
+def get_maximum_value(a, b, c):
     
     max_value = a
     if b > max_value:
