@@ -12,5 +12,5 @@ def common_characters(string_a,string_b):
             unique_lis.append(word)
 
     
-    print("Common Letters: " + ', '.join(unique_lis))
+    print("Common Letters: " + ", ".join(unique_lis))
     
