@@ -14,4 +14,3 @@ def common_characters(string_a,string_b):
     
     print("Common Letters: " + ', '.join(unique_lis))
     
-common_characters("aaaaaa","a")
